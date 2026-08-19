@@ -1,0 +1,5 @@
+ALFAVIT FINAL CLEAN SVG
+cards=12
+icons=12
+old_pngs=0
+12 clean Russian service images; 12 separate HTML/SVG red icons.

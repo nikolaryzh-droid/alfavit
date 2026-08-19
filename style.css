@@ -98,3 +98,45 @@ footer{display:grid;grid-template-columns:220px 1fr 1fr auto;gap:24px;align-item
     aspect-ratio:7 / 3 !important;
   }
 }
+
+/* FINAL CLEAN SERVICE CARDS */
+.service-card{
+  position:relative !important;
+  overflow:hidden !important;
+}
+.service-card > img{
+  width:100% !important;
+  height:auto !important;
+  aspect-ratio:1400 / 660 !important;
+  object-fit:cover !important;
+  object-position:center !important;
+  display:block !important;
+}
+.service-card .service-icon{
+  position:absolute !important;
+  top:14px !important;
+  left:14px !important;
+  z-index:8 !important;
+  width:50px !important;
+  height:50px !important;
+  border-radius:13px !important;
+  background:#e31d1a !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  padding:10px !important;
+  box-sizing:border-box !important;
+  box-shadow:0 8px 18px rgba(0,0,0,.22) !important;
+}
+.service-card .service-icon svg{
+  width:100% !important;
+  height:100% !important;
+  fill:none !important;
+  stroke:#fff !important;
+  stroke-width:2 !important;
+  stroke-linecap:round !important;
+  stroke-linejoin:round !important;
+}
+#services{
+  scroll-margin-top:110px !important;
+}
