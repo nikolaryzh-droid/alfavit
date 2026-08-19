@@ -66,3 +66,20 @@ footer{display:grid;grid-template-columns:220px 1fr 1fr auto;gap:24px;align-item
 }
 
 /* BUILD ALFAVIT-CLEAN-12 */
+
+/* ALFAVIT RETINA FIX — do not vertically stretch service artwork */
+.service-card>img{
+  display:block !important;
+  width:100% !important;
+  height:auto !important;
+  aspect-ratio:2 / 1 !important;
+  object-fit:cover !important;
+  object-position:center !important;
+  image-rendering:auto !important;
+}
+@media(max-width:620px){
+  .service-card>img{
+    height:auto !important;
+    aspect-ratio:2 / 1 !important;
+  }
+}

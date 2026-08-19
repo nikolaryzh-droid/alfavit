@@ -1,41 +1,65 @@
-00-HQ-ПРОВЕРКА.txt	3d62a9ff5b2249d5
-00-ПРОВЕРЕНО.txt	396efd9ab0af52bb
-BUILD-MANIFEST.txt	c166a0b9c58a1870
-hero-solaris.jpg	628d691febab7e14
-index.html	633a89b5cb82c4e3
-logo-transparent.png	f5a1906a971604cc
-logo-white.png	a187aebb417b2c33
-main.js	72535fff32440633
-service-address.jpg	ec50847c28cbbc06
-service-branding.jpg	5ca0172c999557f3
-service-facade.jpg	93c02c8b7a487a87
-service-interior.jpg	78ab5c303d5b7ac4
-service-letters.jpg	63c073e331956758
-service-lightbox.jpg	e2bc64603a81f6d7
-service-plotter.jpg	5d355453b2f284c9
-service-print.jpg	89773e1f1757379e
-service-pylon.jpg	c2ec91c94afb31fe
-service-roof.jpg	0ebb0ef905956ede
-service-stands.jpg	5ae0e0b7e665cbf9
-service-structures.jpg	b68694e5d6b150dd
-style.css	df0fd63925f663ab
-work-01.webp	147c944f1de8e118
-work-02.webp	2564f2331d4187b9
-work-03.webp	22ae1246b130f0de
-work-04.webp	5382a9634c8a9267
-work-05.webp	e8b10b57c23d72ff
-work-06.webp	e4503c6ffbccfbc3
-work-07.webp	8f7c72f1181ffffa
-work-08.webp	c0259feef5892e68
-work-09.webp	d9b25f3209a08fb5
-work-10.webp	a9abcfbf92d093ce
-work-11.webp	3ed3a3f3b3510fcb
-work-12.webp	ec88821a34bb6636
-work-13.webp	8f4579af0a742260
-work-14.webp	f968b21a47c1573f
-work-15.webp	656e1454e2aa92c3
-work-16.webp	e17d86a8816601eb
-work-17.webp	dadcb6cb6b54ead8
-work-18.webp	4e27c2598a032f44
-work-19.webp	76bf22c3e016da29
-work-20.webp	1da11b79f8b3108c
+00-ПРОВЕРЕНО.txt	1266	396efd9ab0af
+00-ПРОВЕРКА-RETINA.txt	598	20d970712832
+BUILD-MANIFEST.txt	1267	c166a0b9c58a
+hero-solaris.jpg	320445	628d691febab
+index.html	21148	6bb6f65398a0
+logo-transparent.png	15241	f5a1906a9716
+logo-white.png	7473	a187aebb417b
+main.js	294	72535fff3244
+service-address-1440.webp	121936	85388dc0ac93
+service-address-720.webp	64170	0595c1b20662
+service-address.jpg	267150	687d210d62a2
+service-branding-1440.webp	130690	5fe32fd8f627
+service-branding-720.webp	66270	df48eb58b050
+service-branding.jpg	274300	ea38942ed40e
+service-facade-1440.webp	87876	46cbf0bc501c
+service-facade-720.webp	43926	5863820fc6ab
+service-facade.jpg	225624	604217de8a68
+service-interior-1440.webp	127296	9bf316ab8813
+service-interior-720.webp	65130	53d33e13c539
+service-interior.jpg	273915	9693f59c1441
+service-letters-1440.webp	98984	0f1000ba6a68
+service-letters-720.webp	46950	0d7d18477c58
+service-letters.jpg	245810	59571dc8511d
+service-lightbox-1440.webp	118040	1c3eead2ffcd
+service-lightbox-720.webp	59364	ee9ccaf205cb
+service-lightbox.jpg	260114	80b8cba94337
+service-plotter-1440.webp	103032	a86d449663dc
+service-plotter-720.webp	52214	bc140ca16166
+service-plotter.jpg	223955	726b2a76c204
+service-print-1440.webp	103894	ba376aea60e5
+service-print-720.webp	53210	611522eabe50
+service-print.jpg	248637	1045dd2aafaa
+service-pylon-1440.webp	119098	7ffbd22140db
+service-pylon-720.webp	56554	001f08d5ebc2
+service-pylon.jpg	262343	fa84aead20a8
+service-roof-1440.webp	122632	9270151c9a36
+service-roof-720.webp	61160	ac5ef4d4cf97
+service-roof.jpg	275003	160b187fb8df
+service-stands-1440.webp	102602	3909480afcbf
+service-stands-720.webp	50012	ec821a77eb29
+service-stands.jpg	241889	be2ac27b088a
+service-structures-1440.webp	103750	e06be879d207
+service-structures-720.webp	55568	09b2c2ea92cb
+service-structures.jpg	243712	3d6664d827ed
+style.css	8399	367990460a0f
+work-01.webp	116560	147c944f1de8
+work-02.webp	96376	2564f2331d41
+work-03.webp	159504	22ae1246b130
+work-04.webp	105634	5382a9634c8a
+work-05.webp	107230	e8b10b57c23d
+work-06.webp	314952	e4503c6ffbcc
+work-07.webp	142562	8f7c72f1181f
+work-08.webp	152320	c0259feef589
+work-09.webp	78314	d9b25f3209a0
+work-10.webp	79580	a9abcfbf92d0
+work-11.webp	102714	3ed3a3f3b351
+work-12.webp	127188	ec88821a34bb
+work-13.webp	165344	8f4579af0a74
+work-14.webp	142830	f968b21a47c1
+work-15.webp	72832	656e1454e2aa
+work-16.webp	361576	e17d86a88166
+work-17.webp	264038	dadcb6cb6b54
+work-18.webp	130182	4e27c2598a03
+work-19.webp	106416	76bf22c3e016
+work-20.webp	219026	1da11b79f8b3
