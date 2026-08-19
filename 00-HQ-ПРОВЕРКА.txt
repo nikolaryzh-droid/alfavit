@@ -1,0 +1,20 @@
+ALFAVIT-HQ-12-20260819B
+Структура страницы не менялась.
+12 услуг находятся в одной сетке.
+Отдельного блока «Дополнительные услуги» нет.
+Иконки остаются HTML/SVG-слоем и не встроены в фотографии.
+Добавлен cache-busting ?v=20260819b.
+
+Проверка изображений:
+service-letters.jpg: 1600×900 px, 293 KB
+service-lightbox.jpg: 1600×900 px, 329 KB
+service-facade.jpg: 1600×900 px, 278 KB
+service-roof.jpg: 1600×900 px, 336 KB
+service-interior.jpg: 1600×900 px, 290 KB
+service-pylon.jpg: 1600×900 px, 291 KB
+service-structures.jpg: 1600×900 px, 260 KB
+service-branding.jpg: 1600×900 px, 301 KB
+service-stands.jpg: 1600×900 px, 264 KB
+service-address.jpg: 1600×900 px, 326 KB
+service-print.jpg: 1600×900 px, 282 KB
+service-plotter.jpg: 1600×900 px, 253 KB
