@@ -64,3 +64,5 @@ footer{display:grid;grid-template-columns:220px 1fr 1fr auto;gap:24px;align-item
   .service-grid{grid-template-columns:1fr !important}
   .service-card>img{height:250px !important}
 }
+
+/* BUILD ALFAVIT-CLEAN-12 */

@@ -1,0 +1,25 @@
+СБОРКА: ALFAVIT-CLEAN-12-2026-08-19
+Карточек услуг в index.html: 12
+Отдельный блок «Дополнительные услуги»: отсутствует
+Старые service-*.png: отсутствуют
+Все 12 карточек используют JPG высокого разрешения:
+- service-address.jpg: 1600×950 px
+- service-branding.jpg: 1600×950 px
+- service-facade.jpg: 1600×950 px
+- service-interior.jpg: 1600×950 px
+- service-letters.jpg: 1600×950 px
+- service-lightbox.jpg: 1600×950 px
+- service-plotter.jpg: 1600×950 px
+- service-print.jpg: 1600×950 px
+- service-pylon.jpg: 1600×950 px
+- service-roof.jpg: 1600×950 px
+- service-stands.jpg: 1600×950 px
+- service-structures.jpg: 1600×950 px
+
+ВАЖНО ПРИ ЗАГРУЗКЕ С IPAD:
+1. Распакуйте именно этот ZIP.
+2. В GitHub откройте корень репозитория alfavit.
+3. Add file → Upload files.
+4. Выберите ВСЕ файлы из распакованной папки, включая index.html.
+5. Commit changes.
+6. После обновления Cloudflare сделайте обновление страницы без кэша/закройте и снова откройте вкладку.
