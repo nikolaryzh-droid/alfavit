@@ -1,0 +1,6 @@
+Форма заявки уже подключена к Cloudflare Pages Function /api/lead.
+Для реальной доставки заявок добавьте в Cloudflare Pages → Settings → Variables and Secrets:
+TELEGRAM_BOT_TOKEN = токен вашего Telegram-бота
+TELEGRAM_CHAT_ID = ID чата, куда получать заявки
+
+Контактные данные в index.html намеренно не выдуманы. Найдите фразу «Добавим после подтверждения» и замените на фактический телефон, e-mail и адрес.

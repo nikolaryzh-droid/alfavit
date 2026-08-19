@@ -1,0 +1,19 @@
+Проверка сборки:
+- Карточек услуг: 12 (должно быть 12)
+- Отдельный блок «Дополнительные услуги»: удалён
+- Все 12 изображений подключены: да
+- Размеры изображений услуг:
+  service-address.jpg: 1600×950 px
+  service-branding.jpg: 1600×950 px
+  service-facade.jpg: 1600×950 px
+  service-interior.jpg: 1600×950 px
+  service-letters.jpg: 1600×950 px
+  service-lightbox.jpg: 1600×950 px
+  service-plotter.jpg: 1600×950 px
+  service-print.jpg: 1600×950 px
+  service-pylon.jpg: 1600×950 px
+  service-roof.jpg: 1600×950 px
+  service-stands.jpg: 1600×950 px
+  service-structures.jpg: 1600×950 px
+
+Все сервисные изображения подготовлены в 1600×950 px, JPEG quality 94, без chroma subsampling.
