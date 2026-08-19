@@ -28,3 +28,50 @@ footer{display:grid;grid-template-columns:220px 1fr 1fr auto;gap:24px;align-item
 .extra-services-grid small{color:#666}
 @media(max-width:1024px){.extra-services-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:640px){.extra-services-grid{grid-template-columns:1fr}.all-services{padding:32px 20px 40px}}
+
+#services,#works,#about,#steps,#faq,#calc{scroll-margin-top:110px}
+
+/* Final cleanup: one icon per service card */
+.service-card-clean{
+  position:relative;
+  overflow:hidden !important;
+}
+.service-card-clean::before,
+.service-card-clean::after{
+  content:none !important;
+  display:none !important;
+}
+.service-card-clean .service-icon,
+.service-card-clean .service-icon-badge{
+  position:absolute;
+  top:14px;
+  left:14px;
+  z-index:4;
+  width:52px;
+  height:52px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(14,14,15,.92);
+  border:1px solid #343438;
+  border-radius:12px;
+  color:#e31d1a;
+  box-shadow:none !important;
+  overflow:hidden;
+}
+.service-card-clean .service-icon svg,
+.service-card-clean .service-icon-badge svg{
+  width:30px;
+  height:30px;
+}
+.service-card-clean .service-icon + .service-icon,
+.service-card-clean .service-icon-badge + .service-icon-badge,
+.service-card-clean .service-icon + .service-icon-badge,
+.service-card-clean .service-icon-badge + .service-icon{
+  display:none !important;
+}
+.service-card-clean [class*="legacy-icon"],
+.service-card-clean [class*="icon-shadow"],
+.service-card-clean [class*="extra-icon"]{
+  display:none !important;
+}
