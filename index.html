@@ -1,114 +1,269 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>РПК Алфавит</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background: #111;
-            color: #fff;
-        }
-
-        .hero {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            padding: 30px 6%;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .logo {
-            font-size: 32px;
-            font-weight: 900;
-            letter-spacing: 3px;
-        }
-
-        .hero-content {
-            margin: auto 0;
-            max-width: 1000px;
-        }
-
-        .subtitle {
-            font-size: 14px;
-            letter-spacing: 4px;
-            margin-bottom: 25px;
-            opacity: .7;
-        }
-
-        h1 {
-            font-size: clamp(48px, 8vw, 110px);
-            line-height: .92;
-            text-transform: uppercase;
-        }
-
-        .description {
-            margin-top: 30px;
-            max-width: 650px;
-            font-size: 20px;
-            line-height: 1.5;
-            opacity: .8;
-        }
-
-        .button {
-            display: inline-block;
-            margin-top: 35px;
-            padding: 18px 30px;
-            background: #fff;
-            color: #111;
-            text-decoration: none;
-            font-weight: bold;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b0b">
+  <meta name="description" content="РПК Алфавит — наружная реклама, вывески, объёмные буквы, оформление фасадов, полиграфия и рекламные конструкции.">
+  <title>РПК Алфавит — реклама, которую замечают</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <div class="noise"></div>
 
-<section class="hero">
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="РПК Алфавит">
+      <span class="brand-mark">А</span>
+      <span class="brand-text"><strong>АЛФАВИТ</strong><small>РЕКЛАМНО-ПРОИЗВОДСТВЕННАЯ КОМПАНИЯ</small></span>
+    </a>
 
-    <nav>
-        <div class="logo">АЛФАВИТ</div>
-        <div>РПК</div>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#services">Услуги</a>
+      <a href="#portfolio">Портфолио</a>
+      <a href="#production">Производство</a>
+      <a href="#calculator">Расчёт</a>
+      <a href="#contacts">Контакты</a>
     </nav>
 
-    <div class="hero-content">
+    <a class="header-cta" href="#calculator">Обсудить проект</a>
+  </header>
 
-        <div class="subtitle">
-            РЕКЛАМНО-ПРОИЗВОДСТВЕННАЯ КОМПАНИЯ
+  <main>
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> РПК «Алфавит» · Балашов</p>
+          <h1>Создаём рекламу,<br><em>которую замечают</em></h1>
+          <p class="hero-lead">Вывески, объёмные буквы, световые конструкции, оформление фасадов, печать и рекламное производство под ключ.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#calculator">Рассчитать стоимость</a>
+            <a class="btn btn-ghost" href="#portfolio">Смотреть работы <span>↗</span></a>
+          </div>
+
+          <div class="hero-stats">
+            <div><strong>01</strong><span>Проектирование</span></div>
+            <div><strong>02</strong><span>Производство</span></div>
+            <div><strong>03</strong><span>Монтаж</span></div>
+          </div>
         </div>
 
-        <h1>
-            Создаём<br>
-            рекламу,<br>
-            которую замечают
-        </h1>
+        <div class="hero-visual reveal">
+          <div class="hero-card hero-card-main">
+            <div class="mock-sign"><span>АЛФАВИТ</span><i>световая вывеска</i></div>
+          </div>
+          <div class="hero-card hero-card-small top-card">
+            <span class="mini-label">СВОЁ ПРОИЗВОДСТВО</span>
+            <strong>От идеи<br>до монтажа</strong>
+          </div>
+          <div class="hero-card hero-card-small bottom-card">
+            <span class="mini-label">БАЛАШОВ</span>
+            <strong>Работаем<br>с бизнесом</strong>
+          </div>
+          <div class="red-disc"></div>
+        </div>
+      </div>
+      <div class="ticker" aria-hidden="true">
+        <div>ВЫВЕСКИ · ОБЪЁМНЫЕ БУКВЫ · БАННЕРЫ · ПОЛИГРАФИЯ · ФАСАДЫ · СВЕТОВЫЕ КОРОБА · НАВИГАЦИЯ · БРЕНДИРОВАНИЕ ·</div>
+      </div>
+    </section>
 
-        <p class="description">
-            Наружная реклама, вывески, объёмные буквы,
-            оформление фасадов, полиграфия и рекламные конструкции.
-        </p>
+    <section class="section services" id="services">
+      <div class="section-head reveal">
+        <p class="section-index">01 / УСЛУГИ</p>
+        <h2>Реклама, которая работает<br>в реальном городе</h2>
+        <p>Закрываем полный цикл: от эскиза и расчёта до производства, доставки и монтажа.</p>
+      </div>
 
-        <a href="#" class="button">
-            РАССЧИТАТЬ СТОИМОСТЬ
-        </a>
+      <div class="service-list">
+        <article class="service-item reveal">
+          <span class="num">01</span>
+          <div><h3>Вывески и световые короба</h3><p>Фасадные, интерьерные, световые и несветовые конструкции.</p></div>
+          <span class="arrow">↗</span>
+        </article>
+        <article class="service-item reveal">
+          <span class="num">02</span>
+          <div><h3>Объёмные буквы</h3><p>С лицевой, контражурной и комбинированной подсветкой.</p></div>
+          <span class="arrow">↗</span>
+        </article>
+        <article class="service-item reveal">
+          <span class="num">03</span>
+          <div><h3>Оформление фасадов</h3><p>Комплексное брендирование торговых и коммерческих объектов.</p></div>
+          <span class="arrow">↗</span>
+        </article>
+        <article class="service-item reveal">
+          <span class="num">04</span>
+          <div><h3>Баннеры и широкоформатная печать</h3><p>Печать, постпечатная обработка, каркасы и монтаж.</p></div>
+          <span class="arrow">↗</span>
+        </article>
+        <article class="service-item reveal">
+          <span class="num">05</span>
+          <div><h3>Полиграфия</h3><p>Визитки, листовки, буклеты, каталоги и фирменные материалы.</p></div>
+          <span class="arrow">↗</span>
+        </article>
+      </div>
+    </section>
 
+    <section class="section portfolio" id="portfolio">
+      <div class="section-head split reveal">
+        <div>
+          <p class="section-index">02 / ПОРТФОЛИО</p>
+          <h2>Объекты, которые<br>формируют среду</h2>
+        </div>
+        <p>Здесь позже разместим реальные работы «Алфавита». На первой версии стоят стилизованные демонстрационные карточки.</p>
+      </div>
+
+      <div class="portfolio-grid">
+        <article class="project p1 reveal">
+          <div class="project-art art-1"><span>ALFA / SIGN</span></div>
+          <div class="project-meta"><strong>Фасадная вывеска</strong><span>Световые буквы · монтаж</span></div>
+        </article>
+        <article class="project p2 reveal">
+          <div class="project-art art-2"><span>24 / 7</span></div>
+          <div class="project-meta"><strong>Навигация и брендирование</strong><span>Комплексное оформление</span></div>
+        </article>
+        <article class="project p3 reveal">
+          <div class="project-art art-3"><span>БРЕНД</span></div>
+          <div class="project-meta"><strong>Оформление фасада</strong><span>Композит · печать · свет</span></div>
+        </article>
+        <article class="project p4 reveal">
+          <div class="project-art art-4"><span>PRINT</span></div>
+          <div class="project-meta"><strong>Полиграфия</strong><span>Дизайн · печать · постпечатная обработка</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section production" id="production">
+      <div class="production-grid">
+        <div class="production-copy reveal">
+          <p class="section-index">03 / ПРОИЗВОДСТВО</p>
+          <h2>Не посредники.<br>Производим сами.</h2>
+          <p>Контролируем качество и сроки внутри одной команды: дизайн, подготовка материалов, изготовление, электрика, сборка и монтаж.</p>
+          <a class="text-link" href="#contacts">Посмотреть производство <span>↗</span></a>
+        </div>
+
+        <div class="production-panel reveal">
+          <div class="machine-visual">
+            <div class="machine-line line-a"></div>
+            <div class="machine-line line-b"></div>
+            <div class="machine-line line-c"></div>
+            <div class="machine-core">RPK<br>ALFAVIT</div>
+          </div>
+          <div class="capability-grid">
+            <div><strong>01</strong><span>Проектирование</span></div>
+            <div><strong>02</strong><span>Раскрой</span></div>
+            <div><strong>03</strong><span>Печать</span></div>
+            <div><strong>04</strong><span>Сборка</span></div>
+            <div><strong>05</strong><span>Электрика</span></div>
+            <div><strong>06</strong><span>Монтаж</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process">
+      <div class="section-head reveal">
+        <p class="section-index">04 / ПРОЦЕСС</p>
+        <h2>Понятный путь<br>от задачи до результата</h2>
+      </div>
+      <div class="process-grid">
+        <div class="process-step reveal"><span>01</span><h3>Заявка</h3><p>Уточняем задачу, размеры, сроки и место установки.</p></div>
+        <div class="process-step reveal"><span>02</span><h3>Расчёт</h3><p>Предлагаем решение, материалы и предварительную стоимость.</p></div>
+        <div class="process-step reveal"><span>03</span><h3>Макет</h3><p>Готовим визуализацию и согласовываем конструктив.</p></div>
+        <div class="process-step reveal"><span>04</span><h3>Производство</h3><p>Изготавливаем конструкцию и проверяем перед монтажом.</p></div>
+        <div class="process-step reveal"><span>05</span><h3>Монтаж</h3><p>Доставляем, устанавливаем и сдаём готовый объект.</p></div>
+      </div>
+    </section>
+
+    <section class="section calculator" id="calculator">
+      <div class="calculator-wrap">
+        <div class="calculator-intro reveal">
+          <p class="section-index">05 / БЫСТРЫЙ РАСЧЁТ</p>
+          <h2>Расскажите,<br>что нужно сделать</h2>
+          <p>Калькулятор формирует ориентировочную оценку. Финальную стоимость менеджер уточнит после проверки размеров, материалов и монтажа.</p>
+        </div>
+
+        <form class="calc-form reveal" id="calcForm">
+          <label>
+            <span>Тип изделия</span>
+            <select id="productType">
+              <option value="sign">Световая вывеска</option>
+              <option value="letters">Объёмные буквы</option>
+              <option value="banner">Баннер</option>
+              <option value="facade">Оформление фасада</option>
+            </select>
+          </label>
+
+          <div class="form-row">
+            <label><span>Ширина, мм</span><input id="width" type="number" min="100" value="3000"></label>
+            <label><span>Высота, мм</span><input id="height" type="number" min="100" value="800"></label>
+          </div>
+
+          <label class="check">
+            <input id="installation" type="checkbox" checked>
+            <span>Нужен монтаж</span>
+          </label>
+
+          <div class="calc-result">
+            <span>Ориентировочно</span>
+            <strong id="priceResult">от 0 ₽</strong>
+            <small>* демонстрационный расчёт для первой версии сайта</small>
+          </div>
+
+          <a class="btn btn-primary full" href="#contacts">Отправить заявку</a>
+        </form>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="big-cta reveal">
+        <p>Есть задача?</p>
+        <h2>Сделаем её<br><em>заметной.</em></h2>
+        <a href="#contacts">Обсудить проект <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacts">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark">А</span>
+        <h3>АЛФАВИТ</h3>
+        <p>Рекламно-производственная компания</p>
+      </div>
+
+      <div class="footer-col">
+        <span>КОНТАКТЫ</span>
+        <a href="tel:+70000000000">+7 000 000-00-00</a>
+        <a href="mailto:info@example.ru">info@example.ru</a>
+      </div>
+
+      <div class="footer-col">
+        <span>АДРЕС</span>
+        <p>Саратовская область,<br>г. Балашов</p>
+      </div>
+
+      <div class="footer-col">
+        <span>НАВИГАЦИЯ</span>
+        <a href="#services">Услуги</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#production">Производство</a>
+      </div>
     </div>
 
-</section>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> РПК «Алфавит»</span>
+      <a href="#top">Наверх ↑</a>
+    </div>
+  </footer>
 
+  <script src="main.js"></script>
 </body>
 </html>
