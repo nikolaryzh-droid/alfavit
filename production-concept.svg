@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+<defs><linearGradient id="b" x1="0" x2="1"><stop stop-color="#111"/><stop offset="1" stop-color="#242424"/></linearGradient></defs>
+<rect width="1200" height="750" fill="url(#b)"/>
+<g stroke="#444" fill="none" stroke-width="2">
+<path d="M90 610 L340 170 L520 610 Z"/><path d="M370 610 L620 110 L825 610 Z"/><path d="M760 610 L960 240 L1110 610 Z"/>
+</g>
+<g fill="#ff3b30"><circle cx="340" cy="170" r="14"/><circle cx="620" cy="110" r="14"/><circle cx="960" cy="240" r="14"/></g>
+<g font-family="Arial" fill="#eee">
+<text x="90" y="85" font-size="24" letter-spacing="6">ПРОИЗВОДСТВО</text>
+<text x="90" y="128" font-size="54" font-weight="700">ОТ МАКЕТА ДО МОНТАЖА</text>
+</g>
+<g font-family="Arial" font-size="16" fill="#999">
+<text x="95" y="670">РАСКРОЙ</text><text x="380" y="670">СБОРКА</text><text x="760" y="670">ЭЛЕКТРИКА</text><text x="1000" y="670">МОНТАЖ</text>
+</g>
+</svg>
