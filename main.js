@@ -1,7 +1,6 @@
 
-const button = document.getElementById('showMore');
-const block = document.getElementById('moreWorks');
-button?.addEventListener('click', () => {
-  const active = block.classList.toggle('show');
-  button.textContent = active ? 'Скрыть' : 'Показать все';
+document.getElementById('showMore')?.addEventListener('click', function(){
+ const block=document.getElementById('moreWorks');
+ const shown=block.classList.toggle('show');
+ this.textContent=shown?'Скрыть дополнительные работы':'Показать больше работ';
 });
