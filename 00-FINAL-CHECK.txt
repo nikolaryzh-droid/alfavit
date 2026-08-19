@@ -1,0 +1,7 @@
+ALFAVIT FINAL FIT
+Исправлено:
+- изображения больше не обрезаются object-fit: cover;
+- используется object-fit: contain;
+- пропорция карточки 7:3 под изображения 1400x600;
+- изображения остаются без красных overlay-иконок;
+- добавлен новый cache-busting для Safari/Cloudflare.

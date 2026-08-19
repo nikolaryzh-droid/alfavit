@@ -73,3 +73,28 @@ footer{display:grid;grid-template-columns:220px 1fr 1fr auto;gap:24px;align-item
 .service-card > .icon {
   display:none !important;
 }
+
+/* FINAL IMAGE FIT FIX */
+.service-card{
+  overflow:hidden !important;
+}
+.service-card > img{
+  width:100% !important;
+  height:auto !important;
+  aspect-ratio:7 / 3 !important;
+  object-fit:contain !important;
+  object-position:center center !important;
+  background:#101112 !important;
+  display:block !important;
+  image-rendering:auto !important;
+}
+@media(max-width:1050px){
+  .service-card > img{
+    aspect-ratio:7 / 3 !important;
+  }
+}
+@media(max-width:620px){
+  .service-card > img{
+    aspect-ratio:7 / 3 !important;
+  }
+}
