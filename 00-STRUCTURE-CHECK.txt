@@ -1,0 +1,12 @@
+ALFAVIT PUBLIC NO-FORM FIXED
+hero: OK
+services: OK
+works: OK
+steps: OK
+calc_contact: OK
+faq: OK
+contacts: OK
+lead_form_removed: OK
+12_services: OK
+
+Удалён только блок формы. Все остальные разделы сохранены.

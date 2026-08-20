@@ -43,11 +43,3 @@ document.addEventListener('submit',function(e){
   if(s)s.textContent=m;else alert(m);
  }
 },true);
-
-document.addEventListener('submit',function(e){
- const f=e.target;if(!f||f.id!=='leadForm')return;
- const c=f.querySelector('#pd-consent');
- if(!c||!c.checked){e.preventDefault();alert('Для отправки заявки необходимо дать согласие на обработку персональных данных.');return;}
- f.dataset.consentAcceptedAt=new Date().toISOString();
- f.dataset.consentVersion='1.0-2026-08-20';
-},true);
