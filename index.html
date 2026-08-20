@@ -2,7 +2,8 @@
 
 <html lang="ru">
 <head>
-<!-- BUILD: ALFAVIT-AUDIT-FIXED-20260819 -->
+<!-- BUILD: ALFAVIT-PRODUCTION-NO-TELEGRAM-20260820 -->
+
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>РПК «Алфавит» — рекламные вывески и наружная реклама</title>
@@ -216,7 +217,7 @@
 <select aria-label="Услуга" id="serviceSelect" name="service"><option>Объёмные буквы</option><option>Световые короба</option><option>Фасадные вывески</option><option>Крышные установки</option><option>Интерьерные вывески</option><option>Стелы и пилоны</option><option>Рекламные конструкции</option><option>Брендирование</option><option>Стенды</option><option>Адресные таблички</option><option>Широкоформатная и интерьерная печать</option><option>Плоттерная резка</option></select>
 <textarea aria-label="Описание задачи" name="message" placeholder="Кратко опишите задачу"></textarea>
 <label class="file-label">Прикрепить файл<input accept="image/*,.pdf,.doc,.docx" aria-label="Прикрепить файл" name="attachment" type="file"/></label><small class="file-hint">Фото, PDF, DOC/DOCX — до 10 МБ</small>
-<label class="consent"><input name="consent" required="" type="checkbox"/> Согласен на обработку данных для ответа на заявку. <a href="#privacy-note">Подробнее</a></label>
+<label class="pd-consent"><input id="pd-consent" name="pd_consent" required type="checkbox" value="yes"/><span>Я даю <a href="consent-personal-data.html" target="_blank" rel="noopener">согласие на обработку персональных данных</a> и ознакомлен(а) с <a href="privacy-policy.html" target="_blank" rel="noopener">Политикой обработки персональных данных</a>.</span></label><input name="consent_version" type="hidden" value="1.0-2026-08-20"/>
 <button class="primary" type="submit">Получить расчёт →</button>
 <div aria-live="polite" class="form-status" id="formStatus"></div>
 </form>
@@ -229,30 +230,15 @@
 </section>
 </main>
 <section class="contacts" id="contacts">
-<div class="section-head"><div><small>06</small><h2>Контакты</h2><p>Свяжитесь с РПК «Алфавит» удобным способом.</p></div></div>
+<div class="section-head"><div><small>06</small><h2>Контакты</h2><p>Свяжитесь с нами удобным способом — обсудим задачу и подготовим расчёт.</p></div></div>
 <div class="contact-grid">
-<article>
-<b>Телефоны</b>
-<span data-contact="phone">
-<a href="tel:+79616457265">+7 (961) 645-72-65</a><br/>
-<a href="tel:+79276225999">+7 (927) 622-59-99</a>
-</span>
-</article>
-
-<article>
-<b>Офис</b>
-<span data-contact="address">Саратовская область, г. Балашов, ул. Карла Маркса, 77</span>
-</article>
-<article>
-<b>Производство</b>
-<span>Саратовская область, Балашовский район, с. Репное, ул. Дачная, 2Д</span>
-</article>
-<article>
-<b>Режим работы</b>
-<span>Пн–Пт 09:00–18:00</span>
-</article>
-<article><b>Организация</b><span>ООО «АЛФАВИТ» · ИНН 6440040943</span></article></div><div class="privacy-note" id="privacy-note">Отправляя форму, вы передаёте контактные данные ООО «АЛФАВИТ» исключительно для обработки обращения. Перед публикацией на основном домене текст политики обработки персональных данных следует утвердить у владельца сайта.</div>
-</section>
+<article><b>Телефоны</b><span><a href="tel:+79616457265">+7 (961) 645-72-65</a><br><a href="tel:+79276225999">+7 (927) 622-59-99</a></span></article>
+<article><b>E-mail</b><span><a href="mailto:alfavit_b@mail.ru">alfavit_b@mail.ru</a></span></article>
+<article><b>Офис</b><span>Саратовская область, г. Балашов, ул. Карла Маркса, 77</span></article>
+<article><b>Производство</b><span>Саратовская область, Балашовский район, с. Репное, ул. Дачная, 2Д</span></article>
+<article><b>Режим работы</b><span>Пн–Пт 09:00–18:00</span></article>
+<article><b>Организация</b><span>ООО «АЛФАВИТ»<br>ИНН 6440040943</span></article>
+</div></section>
 <div aria-hidden="true" aria-labelledby="modalTitle" aria-modal="true" class="modal" id="serviceModal" role="dialog"><div class="modal-card"><button aria-label="Закрыть" class="modal-close">×</button><h3 id="modalTitle"></h3><p id="modalText"></p><button class="primary modal-calc">Рассчитать стоимость →</button></div></div>
 <div aria-hidden="true" aria-label="Просмотр работы" aria-modal="true" class="lightbox" id="lightbox" role="dialog"><button aria-label="Закрыть" class="lightbox-close">×</button><button aria-label="Предыдущая" class="lightbox-prev">‹</button><img alt="Работа РПК Алфавит"/><button aria-label="Следующая" class="lightbox-next">›</button></div>
 <footer>
@@ -260,7 +246,7 @@
 <div><b>РПК «Алфавит»</b><span>Рекламно-производственная компания</span></div>
 <div><span><a href="tel:+79616457265">+7 (961) 645-72-65</a> · Балашов, ул. Карла Маркса, 77</span></div>
 <a href="#top">Наверх ↑</a>
-</footer>
+<div class="footer-contacts"><a href="tel:+79616457265">+7 (961) 645-72-65</a><a href="mailto:alfavit_b@mail.ru">alfavit_b@mail.ru</a><span>Балашов, ул. Карла Маркса, 77</span></div><div class="legal-links"><a href="privacy-policy.html">Политика обработки персональных данных</a><a href="consent-personal-data.html">Согласие на обработку персональных данных</a></div></footer>
 <script src="main.js"></script>
 </body>
 </html>

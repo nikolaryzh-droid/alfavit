@@ -34,3 +34,20 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(modal?.classList
 const form=$('#leadForm'),fileInput=form?.elements.attachment,status=$('#formStatus'),MAX_FILE=10*1024*1024;
 fileInput?.addEventListener('change',()=>{const f=fileInput.files?.[0];if(f&&f.size>MAX_FILE){fileInput.value='';status.textContent='Файл слишком большой. Максимальный размер — 10 МБ.';}else if(f){status.textContent='Прикреплён файл: '+f.name;}});
 form?.addEventListener('submit',async e=>{e.preventDefault();status.textContent='Отправляем заявку…';const submit=form.querySelector('button[type="submit"]');submit.disabled=true;try{const r=await fetch('/api/lead',{method:'POST',body:new FormData(form),headers:{'Accept':'application/json'}});const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.error||'Ошибка отправки');status.textContent=j.attachmentSent===false?'Заявка отправлена. Вложение не удалось передать — мы свяжемся с вами.':'Заявка отправлена. Мы свяжемся с вами.';form.reset();}catch(err){status.textContent=err.message||'Не удалось отправить заявку. Позвоните нам по телефону из раздела «Контакты».';}finally{submit.disabled=false;}});
+
+document.addEventListener('submit',function(e){
+ if(e.target&&e.target.id==='lead-form'){
+  e.preventDefault();e.stopImmediatePropagation();
+  const s=e.target.querySelector('[data-form-status],.form-status');
+  const m='Онлайн-отправка пока не подключена. Позвоните нам или напишите на alfavit_b@mail.ru.';
+  if(s)s.textContent=m;else alert(m);
+ }
+},true);
+
+document.addEventListener('submit',function(e){
+ const f=e.target;if(!f||f.id!=='leadForm')return;
+ const c=f.querySelector('#pd-consent');
+ if(!c||!c.checked){e.preventDefault();alert('Для отправки заявки необходимо дать согласие на обработку персональных данных.');return;}
+ f.dataset.consentAcceptedAt=new Date().toISOString();
+ f.dataset.consentVersion='1.0-2026-08-20';
+},true);
