@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://alfavit.nikolaryzh.workers.dev/sitemap.xml

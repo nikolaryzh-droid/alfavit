@@ -1,0 +1,15 @@
+ALFAVIT SEO READY
+title: OK
+description: OK
+canonical: OK
+open_graph: OK
+json_ld: OK
+robots: OK
+sitemap: OK
+privacy: OK
+hero: OK
+services_12: OK
+works: OK
+contacts: OK
+
+После подключения собственного домена заменить canonical, og:url и адреса в sitemap с workers.dev на основной домен.

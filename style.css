@@ -49,3 +49,7 @@ button,input,select,textarea{font:inherit}.menu-toggle{display:none;background:n
 .contact-cta-card span{color:#b8b8b8}
 .contact-cta-note{grid-column:1/-1;margin:12px 0 0;color:#999;font-size:13px}
 @media(max-width:800px){.contact-cta-grid{grid-template-columns:1fr}.contact-cta{display:block}}
+
+.seo-locality{max-width:1360px;margin:14px auto 0;padding:0 18px 20px;color:#666;font-size:12px;line-height:1.5}
+.legal-links{max-width:1360px;margin:8px auto 0;padding:0 18px 8px;font-size:12px}
+.legal-links a{color:#777}
